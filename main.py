@@ -96,6 +96,21 @@ def show_graf_n(tetas, coords, fi_arr, title=''):
     fig.colorbar(cf, ax=ax)
     plt.savefig('imag' + title[16:])
 
+def show_graf_n_vec(tetas, coords, fi_arr, title=''):
+    '''Функция, созраняющая госограмму в файл только с веторками'''
+
+    # print(fi_arr / 2 / pi)
+    i_2d_arr = num_py_arr_n(coords, tetas, fi_arr)
+    fig, ax = plt.subplots()
+    cmap = plt.colormaps["plasma"]
+    cmap = cmap.with_extremes(bad=cmap(0))
+    ax.set_title(title)
+    cf = ax.pcolormesh(tetas / teta_max, tetas / teta_max, i_2d_arr, cmap=cmap)
+    for i in range(len(fi_arr)):
+        plt.arrow(0, 0, cos(fi_arr[i]) / 2, sin(fi_arr[i]) / 2, width=0.002, color="white")
+    fig.colorbar(cf, ax=ax)
+    plt.savefig('imagvec' + title[16:])
+
 
 def find_better_phase_n(coords, real_phase_arr, plus_arr, tetas, size_of_point=focus_size, steps=100):
     '''Функция поиска лучшего угла поворота для одного вектора, когда все неподвижгы'''
@@ -131,14 +146,16 @@ def do_and_print_one_correction(coords, fi_0, tetas):
     plus_arr = np.zeros(len(fi_0))
     print(fi_0 + plus_arr, plus_arr, sep='\n')
     show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser')
+    show_graf_n_vec(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser')
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
     show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x1')
+    show_graf_n_vec(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x1')
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
     show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x2')
-
+    show_graf_n_vec(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x2')
 
 do_and_print_one_correction(selectedcoords, fi_0, tetas)
