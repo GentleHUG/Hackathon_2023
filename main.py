@@ -31,16 +31,19 @@ def certain_e(teta_x: float, teta_y: float, phase: float):
 
 
 def i_4_sources(phase_arr, teta_x: float, teta_y: float):
-    exps = np.array([certain_e(teta_x/2, teta_y/2, phase_arr[0]), certain_e(-teta_x/2, teta_y/2, phase_arr[1]),
-                     certain_e(teta_x/2, -teta_y/2, phase_arr[2]), certain_e(-teta_x/2, -teta_y/2, phase_arr[3])])
+    exps = np.array([certain_e(teta_x / 2, teta_y / 2, phase_arr[0]), certain_e(-teta_x / 2, teta_y / 2, phase_arr[1]),
+                     certain_e(teta_x / 2, -teta_y / 2, phase_arr[2]),
+                     certain_e(-teta_x / 2, -teta_y / 2, phase_arr[3])])
     res_exp = sum(exps)
     return f_constants(teta_x, teta_y) ** 2 * (res_exp.real ** 2 + res_exp.imag ** 2)
 
 
 def i_n_sources(coord_arr, phase_arr, teta_x: float, teta_y: float):
-   exps = np.array([certain_e(coords[0]*teta_x, coords[1]*teta_y, phase) for coords, phase in zip(coord_arr, phase_arr)])
-   res_exp = np.sum(exps)
-   return f_constants(teta_x, teta_y) ** 2 * (res_exp.real ** 2 + res_exp.imag ** 2)
+    exps = np.array(
+        [certain_e(coords[0] * teta_x, coords[1] * teta_y, phase) for coords, phase in zip(coord_arr, phase_arr)])
+    res_exp = np.sum(exps)
+    return f_constants(teta_x, teta_y) ** 2 * (res_exp.real ** 2 + res_exp.imag ** 2)
+
 
 def num_py_arr(tetas, phase_arr=None):
     if phase_arr is None:
@@ -59,12 +62,14 @@ def show_graf(tetas, fi_arr, title='Airy pattern'):
     fig.colorbar(cf, ax=ax)
     plt.show()
 
+
 def num_py_arr_n(coords, tetas, phase_arr=None):
     if phase_arr is None:
         phase_arr = [0, 0, 0, 0]
     return np.array([[i_n_sources(coords, phase_arr, x, y) for y in tetas] for x in tetas])
 
-def show_graf_n(tetas, coords ,fi_arr, title='Airy pattern'):
+
+def show_graf_n(tetas, coords, fi_arr, title='Airy pattern'):
     # print(fi_arr / 2 / pi)
     i_2d_arr = num_py_arr_n(coords, tetas, fi_arr)
     fig, ax = plt.subplots()
@@ -75,8 +80,10 @@ def show_graf_n(tetas, coords ,fi_arr, title='Airy pattern'):
     fig.colorbar(cf, ax=ax)
     plt.show()
 
-coords_7 = [(0, 0), (1, 0), (1/2,sqrt(3)/2), (-1/2,sqrt(3)/2), (-1, 0), (-1/2,-sqrt(3)/2), (1/2,-sqrt(3)/2)]
-fi_0 = np.linspace(0, 2*pi,7)
+
+coords_7 = [(0, 0), (1, 0), (1 / 2, sqrt(3) / 2), (-1 / 2, sqrt(3) / 2), (-1, 0), (-1 / 2, -sqrt(3) / 2),
+            (1 / 2, -sqrt(3) / 2)]
+fi_0 = np.linspace(0, 2 * pi, 7)
 
 print(fi_0)
 show_graf_n(tetas, coords_7, fi_0)

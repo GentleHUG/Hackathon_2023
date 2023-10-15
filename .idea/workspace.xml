@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/N_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sourses corrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sourses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/N_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/N_case.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
