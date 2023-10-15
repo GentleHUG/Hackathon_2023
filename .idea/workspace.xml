@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Airy pattern of 4 channel corrected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airy pattern of 4 channel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airy pattern of 7 channel corrected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airy pattern of 7 channel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 4 sources corrected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 4 sources.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sources corrected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sources.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/N_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern of 4 channel corrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern of 4 channel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern of 7 channel corrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern of 7 channel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/N_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/N_case.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -52,9 +50,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Unvectored_imag" />
+      <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Pictures" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
