@@ -22,7 +22,6 @@ tetas = np.linspace(-teta_max, teta_max, N, endpoint=True)
 
 
 '''Геометрия источников'''
-
 # Квадрат 2*2
 coords_4 = [(1 / 2, 1 / 2),   (-1 / 2, 1 / 2),
             (-1 / 2, -1 / 2), (1 / 2, -1 / 2)]
