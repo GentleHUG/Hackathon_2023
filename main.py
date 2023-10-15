@@ -7,7 +7,7 @@ from math import *
 
 
 '''Постоянные в СИ'''
-R = 1e-3
+R = 2e-3
 a = 5e-4
 lmbd = 720e-9
 k = 2 * cm.pi / lmbd
@@ -17,7 +17,7 @@ N = 151
 focus_size = 2
 
 
-teta_max = 2*a
+teta_max = a
 tetas = np.linspace(-teta_max, teta_max, N, endpoint=True)
 
 
@@ -45,7 +45,7 @@ coords_13 = [(0, 0),
 
 
 
-selectedcoords = coords_4
+selectedcoords = coords_13
 
 
 
@@ -84,10 +84,10 @@ def show_graf_n(tetas, coords, fi_arr, title=''):
     cmap = cmap.with_extremes(bad=cmap(0))
     ax.set_title(title)
     cf = ax.pcolormesh(tetas / teta_max, tetas / teta_max, i_2d_arr, cmap=cmap)
-    for i in range(len(fi_arr)):
-        plt.arrow(0, 0, cos(fi_arr[i]) / 2, sin(fi_arr[i]) / 2, width=0.002, color="white")
+    # for i in range(len(fi_arr)):
+    #     plt.arrow(0, 0, cos(fi_arr[i]) / 2, sin(fi_arr[i]) / 2, width=0.002, color="white")
     fig.colorbar(cf, ax=ax)
-    plt.savefig('imagvec' + title[16:])
+    plt.savefig('imag' + title[16:])
 
 
 def find_better_phase_n(coords, real_phase_arr, plus_arr, tetas, size_of_point=focus_size, steps=100):
@@ -120,10 +120,10 @@ def do_and_print_one_correction(coords, fi_0, tetas):
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
-    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channels laser corrected x1')
+    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x1')
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
-    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channels laser corrected x2')
+    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)}-channel laser corrected x2')
 
 do_and_print_one_correction(selectedcoords, fi_0, tetas)

@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13-channel laser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13-channels laser corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13-channels laser corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4-channel laser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4-channels laser corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4-channels laser corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7-channel laser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7-channels laser corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7-channels laser corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9-channel laser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9-channels laser corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9-channels laser corrected x2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +57,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Vectored_imag" />
       <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Unvectored_imag" />
+      <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Vectored_imag" />
       <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Pictures" />
     </key>
   </component>
