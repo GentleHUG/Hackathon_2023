@@ -6,11 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern of 4 channel corrected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern of 4 channel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern of 7 channel corrected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern of 7 channel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/N_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels corrected x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels corrected x1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels corrected x2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Vectored_imag" />
       <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Unvectored_imag" />
       <recent name="C:\Study\5th sem\Hackathot\Hackathon_2023\Pictures" />
     </key>
