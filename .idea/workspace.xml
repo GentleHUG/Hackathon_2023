@@ -6,30 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag13 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag4 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag7 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unvectored_imag/imag9 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec13 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec4 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec7 channels corrected x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels .png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels corrected x1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vectored_imag/imag vec9 channels corrected x2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
