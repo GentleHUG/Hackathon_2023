@@ -1,6 +1,3 @@
-"""Весь код писался в GoogleColaboratory, поэтому здесь только код, без проекта и тд"""
-
-
 import cmath as cm
 import math as m
 import numpy as np
@@ -54,7 +51,8 @@ def show_graf(tetas, fi_arr, title='Airy pattern'):
   plt.show()
 
 
-
+fi_0 = np.random.random(4) * 2 * pi
+show_graf(tetas, fi_0)
 
 def find_better_phase(real_phase_arr, plus_arr, tetas, size_of_point=5, steps=100):
   # Фукция ищёт поправку к plus_arr, при постоянном phase_arr
@@ -71,7 +69,7 @@ def find_better_phase(real_phase_arr, plus_arr, tetas, size_of_point=5, steps=10
   for i in range(len(real_phase_arr)):
     better_delta = max(deltas, key=lambda x: i_in_focus(x, i))
     # print(better_delta / pi)
-    plus_phase[i] = better_delta 
+    plus_phase[i] = better_delta
 
   return(plus_phase)
 
