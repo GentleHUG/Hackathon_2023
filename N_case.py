@@ -59,10 +59,10 @@ coords_7 = [(0, 0), (1, 0), (1 / 2, sqrt(3) / 2), (-1 / 2, sqrt(3) / 2), (-1, 0)
             (1 / 2, -sqrt(3) / 2)]
 
 coords_4 = [(1/2, 1/2), (-1/2, 1/2), (-1/2, -1/2), (1/2, -1/2)]
-fi_0 = np.linspace(0, 2*pi, 4)
+fi_0 = np.linspace(0, 2*pi, 7)
 
 print(fi_0)
-show_graf_n(tetas, coords_4, fi_0, 'Airy pattern for 4 sources')
+show_graf_n(tetas, coords_7, fi_0, 'Airy pattern of 7 channel')
 
 
 def find_better_phase_n(coords, real_phase_arr, plus_arr, tetas, size_of_point=3, steps=100):
@@ -86,7 +86,7 @@ def find_better_phase_n(coords, real_phase_arr, plus_arr, tetas, size_of_point=3
 
 
 plus_arr = np.zeros(len(fi_0))
-plus_arr = find_better_phase_n(coords_4, fi_0, plus_arr, tetas)
+plus_arr = find_better_phase_n(coords_7, fi_0, plus_arr, tetas)
 
 print(fi_0 + plus_arr)
-show_graf_n(tetas, coords_4, fi_0 + plus_arr, 'Airy pattern for 4 sources corrected')
+show_graf_n(tetas, coords_7, fi_0 + plus_arr, 'Airy pattern of 7 channel corrected')

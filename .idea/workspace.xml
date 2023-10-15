@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f66e40-1ee2-420f-adc3-0aa378fceba1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Airy pattern of 4 channel corrected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airy pattern of 4 channel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airy pattern of 7 channel corrected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Airy pattern of 7 channel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sourses corrected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sourses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 4 sources corrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 4 sources.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sources corrected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airy pattern for 7 sources.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/N_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/N_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,5 +65,8 @@
       <updated>1697362956324</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
