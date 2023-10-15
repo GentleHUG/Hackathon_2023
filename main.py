@@ -43,7 +43,7 @@ coords_13 = [(0, 0),
 
 
 
-selectedcoords = coords_13
+selectedcoords = coords_4
 
 
 
@@ -114,14 +114,14 @@ fi_0 = np.random.random(len(selectedcoords)) * 2 * pi
 def do_and_print_one_correction(coords, fi_0, tetas, postfix=''):
     plus_arr = np.zeros(len(fi_0))
     print(fi_0 + plus_arr, plus_arr, sep='\n')
-    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern in {len(coords)} channels {postfix}')
+    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)} channels {postfix}')
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
-    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern in {len(coords)} channels {postfix}corrected x1')
+    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)} channels {postfix}corrected x1')
 
     plus_arr += find_better_phase_n(coords, fi_0, plus_arr, tetas)
     print(fi_0 + plus_arr, plus_arr, sep='\n')
-    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern in {len(coords)} channels {postfix}corrected x2')
+    show_graf_n(tetas, coords, fi_0 + plus_arr, f'Airy pattern of {len(coords)} channels {postfix}corrected x2')
 
 do_and_print_one_correction(selectedcoords, fi_0, tetas)
