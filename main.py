@@ -6,7 +6,7 @@ from scipy.special import jvp
 from math import *
 
 '''Постоянные в СИ'''
-R = 2e-3
+R = 1e-3
 a = 5e-4
 lmbd = 720e-9
 k = 2 * cm.pi / lmbd
@@ -40,7 +40,7 @@ coords_13 = [(0, 0),
              (-1, 0), (-sqrt(3) / 2, -1 / 2), (-1 / 2, -sqrt(3) / 2),
              (0, -1), (1 / 2, -sqrt(3) / 2), (sqrt(3) / 2, -1 / 2)]
 
-selectedcoords = coords_13
+selectedcoords = coords_7
 
 
 def f_constants(teta_x: float, teta_y: float, E=E0):
@@ -137,7 +137,7 @@ def find_better_phase_n(coords, real_phase_arr, plus_arr, tetas, size_of_point=f
     return plus_phase
 
 
-fi_0 = np.random.random(len(selectedcoords)) * 2 * pi
+fi_0 = np.linspace(0, 2*pi, len(selectedcoords))
 
 
 def do_and_print_one_correction(coords, fi_0, tetas):
